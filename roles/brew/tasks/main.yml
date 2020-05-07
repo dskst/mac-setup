@@ -1,0 +1,7 @@
+- name: 'brew update/upgrade'
+  homebrew:
+    update_homebrew: yes
+    upgrade_all: yes
+- include: brew-tap.yml
+- include: brew.yml
+- include: brew-cask.yml
