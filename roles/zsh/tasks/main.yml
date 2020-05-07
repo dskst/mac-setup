@@ -1,4 +1,3 @@
-- name: 'zsh'
-  file:
-    path: ~/.zsh/local
-    state: directory
+- include: local.yml
+- include: zsh-syntax-highlighting.yml
+- include: zsh-autosuggestions.yml

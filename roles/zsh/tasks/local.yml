@@ -1,0 +1,4 @@
+- name: 'zsh local directory'
+  file:
+    path: ~/.zsh/local
+    state: directory
