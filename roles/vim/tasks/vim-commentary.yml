@@ -1,8 +1,4 @@
-- name: 'mkdir vim-commentary'
-  # https://github.com/tpope/vim-commentary
-  file:
-    path: ~/.vim/pack/tpope/start
-    state: directory
+# https://github.com/tpope/vim-commentary
 - name: 'pull vim-commentary'
   git:
     repo: https://tpope.io/vim/commentary.git
