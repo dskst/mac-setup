@@ -1,5 +1,0 @@
-# https://github.com/zsh-users/zsh-autosuggestions
-- name: 'pull zsh-autosuggestions'
-  git:
-    repo: https://github.com/zsh-users/zsh-autosuggestions
-    dest: ~/.zsh/zsh-autosuggestions

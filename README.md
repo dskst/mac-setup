@@ -4,5 +4,5 @@ Setup for mac. Use ansible.
 ## Usage
 
 ```
-$ ansible-playbook ./playbooks/mac.yml
+$ ansible-playbook ./playbooks/mac.yml --ask-become-pass
 ```

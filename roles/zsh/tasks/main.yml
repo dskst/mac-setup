@@ -1,3 +1,8 @@
-- include: local.yml
-- include: zsh-syntax-highlighting.yml
-- include: zsh-autosuggestions.yml
+- name: 'zsh provisioning'
+  blockinfile:
+    dest: /etc/shells
+    block: "/usr/local/bin/zsh"
+  become: yes
+- name: 'zsh chsh'
+  command: chsh -s /usr/local/bin/zsh
+  become: yes
