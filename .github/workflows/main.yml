@@ -9,6 +9,6 @@ jobs:
       - name: Lint Ansible Playbook
         uses: ansible/ansible-lint-action@master
         with:
-          targets: inventory,playbooks,roles
+          targets: ./playbooks/mac.yml
 
 
