@@ -1,0 +1,3 @@
+- name: 'zsh change shell'
+  command: chsh -s /usr/local/bin/zsh
+  become: yes
