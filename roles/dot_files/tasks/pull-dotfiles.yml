@@ -1,4 +1,5 @@
 - name: 'pull dotfiles'
   git:
-    repo: 'https://github.com/dskst/dotfiles.git'
+    repo: https://github.com/dskst/dotfiles.git
     dest: ~/dotfiles
+    version: HEAD
