@@ -3,6 +3,6 @@
     dest: /etc/shells
     block: "/usr/local/bin/zsh"
   become: yes
-- name: 'zsh chsh'
+- name: 'zsh change shell'
   command: chsh -s /usr/local/bin/zsh
   become: yes
