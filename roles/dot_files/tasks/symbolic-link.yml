@@ -1,25 +1,6 @@
-- name: '.ideavimrc'
+- name: 'ln -s'
   file:
-    src: ~/dotfiles/.ideavimrc
-    dest: ~/.ideavimrc
+    src: '{{ item.src }}'
+    dest: '{{ item.dest }}'
     state: link
-- name: '.vimrc'
-  file:
-    src: ~/dotfiles/.vimrc
-    dest: ~/.vimrc
-    state: link
-- name: '.xvimrc'
-  file:
-    src: ~/dotfiles/.xvimrc
-    dest: ~/.xvimrc
-    state: link
-- name: '.vimrc.keymap'
-  file:
-    src: ~/dotfiles/.vimrc.keymap
-    dest: ~/.vimrc.keymap
-    state: link
-- name: '.zshrc'
-  file:
-    src: ~/dotfiles/.zshrc
-    dest: ~/.zshrc
-    state: link
+  with_items: '{{ symbolic_links }}'

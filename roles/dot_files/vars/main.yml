@@ -1,0 +1,11 @@
+symbolic_links:
+  - src: ~/dotfiles/.ideavimrc
+    dest: ~/.ideavimrc
+  - src: ~/dotfiles/.vimrc
+    dest: ~/.vimrc
+  - src: ~/dotfiles/.xvimrc
+    dest: ~/.xvimrc
+  - src: ~/dotfiles/.vimrc.keymap
+    dest: ~/.vimrc.keymap
+  - src: ~/dotfiles/.zshrc
+    dest: ~/.zshrc
