@@ -1,1 +1,2 @@
 - include: vim-commentary.yml
+- include: vim-surround.yml

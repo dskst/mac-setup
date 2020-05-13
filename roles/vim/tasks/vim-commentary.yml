@@ -3,5 +3,4 @@
   git:
     repo: https://tpope.io/vim/commentary.git
     dest: ~/.vim/pack/tpope/start/commentary
-- name: 'setup vim-commentary'
-  command: vim -u NONE -c "helptags commentary/doc" -c q
+  notify: 'setup vim-commentary'

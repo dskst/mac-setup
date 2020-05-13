@@ -1,0 +1,6 @@
+# https://github.com/tpope/vim-surround
+- name: 'pull vim-surround'
+  git:
+    repo: https://github.com/tpope/vim-surround.git
+    dest: ~/.vim/pack/tpope/start/surround
+  notify: 'setup vim-surround'
