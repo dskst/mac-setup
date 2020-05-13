@@ -1,4 +1,2 @@
-- name: 'setup vim-commentary'
-  command: vim -u NONE -c "helptags commentary/doc" -c q
-- name: 'setup vim-surround'
-  command: vim -u NONE -c "helptags surround/doc" -c q
+- name: 'setup bundle'
+  command: vim +PluginInstall +qall
