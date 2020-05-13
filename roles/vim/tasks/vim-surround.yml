@@ -3,5 +3,5 @@
   git:
     repo: https://github.com/tpope/vim-surround.git
     dest: ~/.vim/pack/tpope/start/surround
-    version: HEAD
+    version: master
   notify: 'setup vim-surround'

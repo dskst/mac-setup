@@ -10,5 +10,6 @@ jobs:
         uses: ansible/ansible-lint-action@master
         with:
           targets: ./playbooks/mac.yml
+          args: -x 701
 
 

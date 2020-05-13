@@ -3,5 +3,5 @@
   git:
     repo: https://tpope.io/vim/commentary.git
     dest: ~/.vim/pack/tpope/start/commentary
-    version: HEAD
+    version: master
   notify: 'setup vim-commentary'

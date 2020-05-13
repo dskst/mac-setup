@@ -6,6 +6,7 @@ brew_taps:
   - homebrew/services
 brew_packages:
   - ansible
+  - ansible-lint
   - bat
   - cocoapods
   - cask

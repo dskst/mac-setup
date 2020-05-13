@@ -2,4 +2,4 @@
   git:
     repo: https://github.com/dskst/dotfiles.git
     dest: ~/dotfiles
-    version: HEAD
+    version: master
