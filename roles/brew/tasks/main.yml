@@ -2,6 +2,7 @@
   homebrew:
     update_homebrew: yes
     upgrade_all: yes
+  tags: brew
 - include: brew-tap.yml
 - include: brew.yml
 - include: brew-cask.yml

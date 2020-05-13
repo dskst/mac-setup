@@ -1,6 +1,7 @@
 - hosts: local
   roles:
     - brew
+    - osx
     - dot_files
     - zsh
     - vim

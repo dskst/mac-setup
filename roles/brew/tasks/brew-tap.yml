@@ -2,3 +2,4 @@
   homebrew_tap:
     name: '{{ brew_taps }}'
     state: present
+  tags: brew

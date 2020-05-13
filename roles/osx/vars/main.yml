@@ -1,0 +1,48 @@
+global_defaults:
+  - key: KeyRepeat
+    type: int
+    value: 2
+  - key: InitialKeyRepeat
+    type: int
+    value: 25
+apple_defaults:
+  # Finder
+  - domain: finder
+    key: ShowTabView
+    type: bool
+    value: true
+  - domain: finder
+    key: ShowStatusBar
+    type: bool
+    value: true
+  - domain: finder
+    key: ShowPathbar
+    type: bool
+    value: true
+  - domain: finder
+    key: AppleShowAllFiles
+    type: bool
+    value: true
+  - domain: finder
+    key: AppleShowAllExtensions
+    type: bool
+    value: true
+  # menuextra
+  - domain: menuextra.battery
+    key: ShowPercent
+    type: string
+    value: 'YES'
+  - domain: menuextra.clock
+    key: DateFormat
+    type: string
+    value: 'EEE H:mm'
+  # desktopservices
+  - domain: desktopservices
+    key: DSDontWriteNetworkStores
+    type: bool
+    value: true
+  # LaunchServices
+  - domain: LaunchServices
+    key: LSQuarantine
+    type: bool
+    value: false 

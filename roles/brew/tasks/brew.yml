@@ -2,3 +2,4 @@
   homebrew:
     name: '{{ brew_packages }}'
     state: present
+  tags: brew

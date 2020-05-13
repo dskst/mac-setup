@@ -3,3 +3,4 @@
     name: '{{ brew_cask_apps }}'
     state: present
     accept_external_apps: True
+  tags: brew
