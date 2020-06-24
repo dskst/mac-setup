@@ -21,6 +21,7 @@ brew_packages:
   - gradle
   - graphviz
   - highlight
+  - jq
   - ktlint
   - libusb
   - lsusb
@@ -46,6 +47,7 @@ brew_cask_apps:
   - atom
   - bettertouchtool
   - charles
+  # - cluster
   - corretto
   - discord
   - docker
@@ -60,6 +62,7 @@ brew_cask_apps:
   - karabiner-elements
   - kindle
   - macvim
+  # - marxico
   - microsoft-edge
   - nautilus
   - postman
