@@ -1,9 +1,9 @@
 brew_taps:
-  - homebrew/bundle
-  - homebrew/cask
-  - homebrew/cask-versions
-  - homebrew/core
-  - homebrew/services
+  - homebrew/homebrew-bundle
+  - homebrew/homebrew-cask
+  - homebrew/homebrew-cask-versions
+  - homebrew/homebrew-core
+  - homebrew/homebrew-services
 brew_packages:
   - ansible
   - ansible-lint
