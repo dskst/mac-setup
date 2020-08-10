@@ -45,6 +45,8 @@ brew_packages:
 brew_cask_apps:
   - 1password
   - alfred3
+  - android-file-transfer
+  - android-sdk
   - atom
   - bettertouchtool
   - charles
