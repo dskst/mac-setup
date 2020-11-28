@@ -7,10 +7,12 @@ brew_taps:
 brew_packages:
   - ansible
   - ansible-lint
+  - anyenv
   - awscli
   - bat
   - cocoapods
   - cask
+  - docker-compose
   - exa
   - fd
   - fzf
