@@ -4,6 +4,7 @@ brew_taps:
   - homebrew/homebrew-cask-versions
   - homebrew/homebrew-core
   - homebrew/homebrew-services
+  - heroku/brew
 brew_packages:
   - ansible
   - ansible-lint
@@ -23,6 +24,7 @@ brew_packages:
   - go
   - gradle
   - graphviz
+  - heroku
   - highlight
   - jq
   - ktlint
@@ -52,7 +54,6 @@ brew_cask_apps:
   - atom
   - bettertouchtool
   - charles
-  # - cluster
   - corretto
   - discord
   - docker
