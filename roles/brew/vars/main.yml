@@ -22,7 +22,7 @@ brew_packages:
   - python
   - ghq
   - go
-  - golangci-lint
+  - golangci-lint
   - gradle
   - graphviz
   - heroku
@@ -82,4 +82,4 @@ brew_cask_apps:
   - toggl
   - visual-studio-code
   - xmind
-  - zoomus
+  - zoom
