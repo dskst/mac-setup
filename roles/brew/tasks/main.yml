@@ -1,7 +1,7 @@
 - name: 'brew update/upgrade'
   homebrew:
-    update_homebrew: yes
     upgrade_all: yes
+    update_homebrew: yes
   tags: brew
 - include: brew-tap.yml
 - include: brew.yml
