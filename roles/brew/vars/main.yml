@@ -14,6 +14,7 @@ brew_packages:
   - cocoapods
   - cask
   - docker-compose
+  - duf
   - exa
   - fd
   - fzf
