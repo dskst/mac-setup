@@ -48,9 +48,6 @@ brew_packages:
   - tree
   - wget
   - zsh
-  - zsh-autosuggestions
-  - zsh-history-substring-search
-  - zsh-syntax-highlighting
 brew_cask_apps:
   - 1password
   - alfred3
