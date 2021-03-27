@@ -42,6 +42,7 @@ brew_packages:
   - ripgrep
   - starship
   - telnet
+  - terminal-notifier
   - terraform
   - tmux-xpanes
   - translate-shell
