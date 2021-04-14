@@ -12,6 +12,7 @@ brew_packages:
   - awscli
   - bat
   - cocoapods
+  - commitizen
   - cask
   - docker-compose
   - duf
