@@ -6,7 +6,7 @@ brew_taps:
   - homebrew/homebrew-services
   - dart-lang/dart
   - heroku/brew
-  - k1low/tap
+  # - k1low/taps
 brew_packages:
   - ansible
   - ansible-lint
@@ -49,7 +49,7 @@ brew_packages:
   - redis
   - ripgrep
   - starship
-  - tbls
+  # - tbls
   - telnet
   - terminal-notifier
   - terraform
@@ -63,19 +63,19 @@ brew_packages:
 brew_cask_apps:
   - 1password
   - alfred3
-  - amazon-music
+  # - amazon-music
   - android-file-transfer
   - android-sdk
   - atom
   - bettertouchtool
   - charles
-  - corretto
+  # - corretto
   - discord
   - docker
   - dynalist
   - firefox
   - google-chrome
-  - google-japanese-ime
+  # - google-japanese-ime
   - gyazo
   - imageoptim
   - intellij-idea
@@ -84,15 +84,13 @@ brew_cask_apps:
   - kindle
   - macvim
   - messenger
-  # - marxico
   - microsoft-edge
   - nautilus
   - postman
   - rstudio
   - skitch
   - slack
-  - toggl
+  - xquartz
   - toggl-track
   - visual-studio-code
-  - xquartz
-  - zoom
+  - xmind
