@@ -4,30 +4,37 @@ brew_taps:
   - homebrew/homebrew-cask-versions
   - homebrew/homebrew-core
   - homebrew/homebrew-services
+  - dart-lang/dart
   - heroku/brew
+  - k1low/tap
 brew_packages:
   - ansible
   - ansible-lint
   - anyenv
   - awscli
   - bat
+  - cask
   - cocoapods
   - commitizen
-  - cask
+  - dart
   - docker-compose
   - duf
   - exa
   - fd
   - fzf
+  - gdk-pixbuf
+  - ghq
   - gibo
   - git
+  - git-crypt
   - git-secrets
   - python
-  - ghq
+  - gnupg
   - go
   - golangci-lint
   - gradle
   - graphviz
+  - netpbm
   - heroku
   - highlight
   - jq
@@ -36,11 +43,13 @@ brew_packages:
   - mysql-client
   - node
   - nodebrew
+  - pinentry-mac
   - plantuml
   - r
   - redis
   - ripgrep
   - starship
+  - tbls
   - telnet
   - terminal-notifier
   - terraform
@@ -48,10 +57,13 @@ brew_packages:
   - translate-shell
   - tree
   - wget
+  - yarn
+  - zplug
   - zsh
 brew_cask_apps:
   - 1password
   - alfred3
+  - amazon-music
   - android-file-transfer
   - android-sdk
   - atom
@@ -68,7 +80,6 @@ brew_cask_apps:
   - imageoptim
   - intellij-idea
   - iterm2
-  - jasper
   - karabiner-elements
   - kindle
   - macvim
@@ -81,6 +92,7 @@ brew_cask_apps:
   - skitch
   - slack
   - toggl
+  - toggl-track
   - visual-studio-code
-  - xmind
+  - xquartz
   - zoom

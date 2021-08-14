@@ -9,3 +9,5 @@ symbolic_links:
     dest: ~/.vimrc.keymap
   - src: ~/dotfiles/.zshrc
     dest: ~/.zshrc
+  - src: ~/dotfiles/.gitconfig
+    dest: ~/.gitconfig
