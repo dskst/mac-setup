@@ -4,7 +4,6 @@ brew_taps:
   - homebrew/homebrew-cask-versions
   - homebrew/homebrew-core
   - homebrew/homebrew-services
-  - dart-lang/dart
   - heroku/brew
   # - k1low/taps
 brew_packages:
@@ -16,7 +15,7 @@ brew_packages:
   - cask
   - cocoapods
   - commitizen
-  - dart
+  - direnv
   - docker-compose
   - duf
   - exa
@@ -38,14 +37,12 @@ brew_packages:
   - heroku
   - highlight
   - jq
-  - ktlint
   - maven
   - mysql-client
   - node
   - nodebrew
   - pinentry-mac
   - plantuml
-  - r
   - redis
   - ripgrep
   - starship
@@ -63,26 +60,20 @@ brew_packages:
 brew_cask_apps:
   - 1password
   - alfred3
-  # - amazon-music
   - android-file-transfer
   - android-sdk
-  - atom
   - bettertouchtool
   - charles
-  # - corretto
   - discord
   - docker
   - dynalist
-  - firefox
   - google-chrome
-  # - google-japanese-ime
   - gyazo
   - imageoptim
   - intellij-idea
   - iterm2
   - karabiner-elements
   - kindle
-  - macvim
   - messenger
   - microsoft-edge
   - nautilus
@@ -93,4 +84,3 @@ brew_cask_apps:
   - xquartz
   - toggl-track
   - visual-studio-code
-  - xmind
