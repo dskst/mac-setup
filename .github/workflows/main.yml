@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Lint Ansible Playbook
-        uses: ansible/ansible-lint-action@master
+        uses: ansible/ansible-lint-action@main
         with:
           targets: ./playbooks/mac.yml
           args: -x 701
