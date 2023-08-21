@@ -1,4 +1,6 @@
 symbolic_links:
+  - src: ~/workspace/github.com/dskst/dotfiles
+    dest: ~/dotfiles
   - src: ~/dotfiles/.ideavimrc
     dest: ~/.ideavimrc
   - src: ~/dotfiles/.vimrc
