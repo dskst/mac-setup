@@ -1,5 +1,5 @@
 - name: 'pull dotfiles'
   git:
     repo: https://github.com/dskst/dotfiles.git
-    dest: ~/dotfiles
+    dest: ~/workspace/github.com/dskst/dotfiles
     version: master
