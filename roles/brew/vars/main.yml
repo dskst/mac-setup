@@ -43,6 +43,7 @@ brew_packages:
   - nodebrew
   - pinentry-mac
   - plantuml
+  - protobuf
   - redis
   - ripgrep
   - starship
@@ -75,12 +76,7 @@ brew_cask_apps:
   - karabiner-elements
   - kindle
   - messenger
-  - microsoft-edge
-  - nautilus
   - postman
-  - rstudio
   - skitch
   - slack
-  - xquartz
-  - toggl-track
   - visual-studio-code
