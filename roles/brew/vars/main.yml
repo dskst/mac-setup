@@ -13,44 +13,43 @@ brew_packages:
   - awscli
   - bat
   - cask
-  - cocoapods
+#  - cocoapods
   - commitizen
+#  - deno
   - direnv
   - docker-compose
   - duf
   - exa
   - fd
   - fzf
-  - gdk-pixbuf
+  - gh
   - ghq
   - gibo
   - git
   - git-crypt
   - git-secrets
-  - python
-  - gnupg
+#  - python
+#  - gnupg
   - go
   - golangci-lint
-  - gradle
-  - graphviz
-  - netpbm
-  - heroku
+#  - gradle
+#  - graphviz
   - highlight
   - jq
-  - maven
-  - mysql-client
+#  - maven
+#  - mysql-client
   - node
   - nodebrew
   - pinentry-mac
   - plantuml
-  - protobuf
-  - redis
+#  - protobuf
+#  - redis
   - ripgrep
   - starship
   # - tbls
   - telnet
   - terminal-notifier
-  - terraform
+#  - terraform
   - tmux-xpanes
   - translate-shell
   - tree
@@ -60,23 +59,20 @@ brew_packages:
   - zsh
 brew_cask_apps:
   - 1password
-  - alfred3
-  - android-file-transfer
-  - android-sdk
+#  - android-file-transfer
+#  - android-sdk
   - bettertouchtool
-  - charles
-  - discord
-  - docker
-  - dynalist
-  - google-chrome
-  - gyazo
-  - imageoptim
+#  - charles
+#  - discord
+#  - docker
+#  - google-chrome
+#  - gyazo
+#  - imageoptim
   - intellij-idea
   - iterm2
   - karabiner-elements
-  - kindle
-  - messenger
-  - postman
-  - skitch
+#  - kindle
+#  - messenger
+#  - postman
   - slack
   - visual-studio-code

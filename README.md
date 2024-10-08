@@ -5,6 +5,12 @@ Setup for mac. Use ansible.
 
 ## Usage
 
+- make workspace
+
 ```
 $ ansible-playbook ./playbooks/mac.yml --ask-become-pass
+```
+
+```
+$(brew --prefix)/opt/fzf/install
 ```
