@@ -1,8 +1,19 @@
-- name: 'brew update/upgrade'
-  homebrew:
+---
+- name: Update and upgrade Homebrew packages
+  ansible.builtin.homebrew:
     upgrade_all: yes
     update_homebrew: yes
   tags: brew
-- include: brew-tap.yml
-- include: brew.yml
-- include: brew-cask.yml
+
+#- name: Include Brew tap tasks
+#  ansible.builtin.include_tasks: brew-tap.yml
+#  tags: brew
+
+- name: Include Brew install tasks
+  ansible.builtin.include_tasks: brew.yml
+  tags: brew
+
+- name: Include Brew cask install tasks
+  ansible.builtin.include_tasks: brew-cask.yml
+  tags: brew
+

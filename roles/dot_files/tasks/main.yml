@@ -1,2 +1,9 @@
-- include: pull-dotfiles.yml
-- include: symbolic-link.yml
+---
+- name: Include dotfiles pull tasks
+  ansible.builtin.include_tasks: pull-dotfiles.yml
+  tags: dotfiles
+
+- name: Include symbolic link tasks
+  ansible.builtin.include_tasks: symbolic-link.yml
+  tags: dotfiles
+

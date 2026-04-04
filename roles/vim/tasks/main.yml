@@ -1,1 +1,5 @@
-- include: bundle.yml
+---
+- name: Include bundle tasks
+  ansible.builtin.include_tasks: bundle.yml
+  tags: bundle
+
