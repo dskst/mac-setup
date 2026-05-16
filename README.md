@@ -5,7 +5,10 @@ Setup for mac. Use ansible.
 
 ## Usage
 
-- make workspace
+1. make workspace
+2. install homebrew
+3. install homebrew cask
+4. install ansible
 
 ```
 $ ansible-playbook ./playbooks/mac.yml --ask-become-pass

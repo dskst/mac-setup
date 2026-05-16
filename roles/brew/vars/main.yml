@@ -38,6 +38,7 @@ brew_packages:
   - tmux-xpanes
   - translate-shell
   - tree
+  - tree-sitter-cli
   - wget
   - yarn
   - zplug
