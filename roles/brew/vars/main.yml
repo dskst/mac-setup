@@ -45,7 +45,6 @@ brew_packages:
   - zsh
 brew_cask_apps:
   - 1password
-  - bettertouchtool
   - iterm2
   - karabiner-elements
   - raycast
