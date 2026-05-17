@@ -13,5 +13,7 @@ symbolic_links:
     dest: ~/.zshrc
   - src: ~/dotfiles/.gitconfig
     dest: ~/.gitconfig
+  - src: ~/dotfiles/.npmrc
+    dest: ~/.npmrc
   - src: ~/dotfiles/.config/nvim
     dest: ~/.config/nvim
